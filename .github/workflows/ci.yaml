@@ -24,7 +24,7 @@ jobs:
       service_name: user-service
       image_name: user-service
       helm_values_key: userService
-      dev_manifest_path: argocd/dev/user-service-application.yaml
+      dev_manifest_path: argocd-test/dev/user-service-application.yaml
       sonar_key: project-taskflow_taskflow-user-service_33d2b59f-342d-4639-a635-5a8ae19be85b
       docker_context: .
       dockerfile_path: ./Dockerfile
