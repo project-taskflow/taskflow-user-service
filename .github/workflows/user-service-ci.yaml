@@ -39,7 +39,7 @@ jobs:
 
   release:
     if: github.event_name == 'workflow_dispatch'
-    uses: Nimesh-Capstone-Project/Parking-System/.github/workflows/reusable-release.yaml@master
+    uses: project-taskflow/taskflow/.github/workflows/reusable-ci.yaml@main
     with:
       release_tag: ${{ inputs.release_tag }}
       service_name: user-service
